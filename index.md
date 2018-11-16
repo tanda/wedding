@@ -1,7 +1,7 @@
 ---
 layout: landing
 ---
-
+<html>
 <section id="banner">
 	<div class="inner">
 		<h2>{{ site.title }}</h2>
@@ -24,3 +24,4 @@ layout: landing
 <section id="details" class="wrapper style3 special">
 	{% include sections/details.html %}
 </section>
+</html>
