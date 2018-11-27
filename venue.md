@@ -36,3 +36,6 @@ _* in japanese_
   - _Take bus #270 to Aka Renga Soko (Red Brick Warehouse)_
 
 ### By Car
+- **Shuto Expressway**
+  - _use the Minatomirai exit or Yokohama Koen exit._
+  - _[more parking information](https://www.marineandwalk.jp/en/#services-parking)_
