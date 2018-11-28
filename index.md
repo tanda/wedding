@@ -24,8 +24,4 @@ layout: landing
 <section id="venue" class="wrapper style3 special">
 	{% include sections/venue.html %}
 </section>
-
-<section id="hotels" class="wrapper style3 special">
-	{% include sections/hotels.html %}
-</section>
 </html>
