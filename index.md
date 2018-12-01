@@ -25,5 +25,8 @@ layout: landing
 	{% include sections/rsvp.html %}
 </section>
 
+<section id="hotels" class="wrapper style3 special">
+	{% include sections/hotels.html %}
+</section>
 
 </html>

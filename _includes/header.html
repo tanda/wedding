@@ -11,6 +11,7 @@
             <li><a href="#venue" class="icon fa-building"> Venue</a></li>
             <li><a href="#about" class="icon fa-question"> About</a></li>
             <li><a href="#rsvp" class="icon fa-paper-plane-o"> RSVP</a></li>
+            <li><a href="#hotels" class="icon fa-bed"> Hotels</a></li>
             {% for my_page in site.pages %}
             {% if my_page.title %}
             <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
