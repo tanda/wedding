@@ -3,18 +3,18 @@
   <header class="major">
     <meta name="Referrer" content="origin">
     <h2>RSVP</h2>
-    <form id="rsvp" method="POST" action="http://formspree.io/sftmb4+wedding@gmail.com">
+    <form method="POST" action="http://formspree.io/sftmb4+wedding@gmail.com">
       First Name <input type="text" name="first_name">
       Last Name <input type="text" name="last_name">
       Email <input type="text" name="email">
-      Party <select name="party" form="rsvp">
+      Party <select name="party">
              <option value="none" selected>-</option>
              <option value="Ayako">Ayako</option>
              <option value="Terrell">Terrell</option>
              </select>
       <br>
-  	  <button type="submit" class="button special">RSVP</button>
       <input type="hidden" name="_next" value="{{ site.baseurl }}/thanks.html"/>
+  	  <button type="submit" class="button special">RSVP</button>
   	</form>
   </header>
   <ul class="icons major">
