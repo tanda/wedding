@@ -8,10 +8,11 @@
       Last Name <input type="text" name="last_name">
       Email <input type="text" name="email">
       Party <select name="party">
-             <option value="none" selected>-</option>
+             <option value="none" selected>Please Select A Party</option>
              <option value="Ayako">Ayako</option>
              <option value="Terrell">Terrell</option>
              </select>
+      Food Restrictions/Allergies <input type="text" name="food" value="none">
       <br>
       <input type="hidden" name="_next" value="{{ site.baseurl }}/thanks.html"/>
   	  <button type="submit" class="button special">RSVP</button>
