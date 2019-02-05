@@ -2,17 +2,29 @@
 #
 
 # Site settings
-title: Ayako + Terrell
-description: |
-  Yokohama, Japan
+title:
+  en: Ayako + Terrell
+  jp: あやこ + テレル
 
-  June 16, 2019
+description:
+  en: |
+    Yokohama, Japan
 
-  Check-in: 3:30pm |
-  Ceremony: 4:00pm |
-  Reception: 5:00pm
+    June 16, 2019
+
+    Check-in: 3:30pm |
+    Ceremony: 4:00pm |
+    Reception: 5:00pm
+  jp: |
+    横浜, みなとみらい
+
+    ２０１９年６月１９日
+
+    Check-in: 15:30時 |
+    Ceremony: 16:00時 |
+    Reception: 17:00時
 owner: Ayako + Terrell Broomer # or company name
-first_published: 2018 # if migrating another site, the year of your first publish
+first_published: 2019 # if migrating another site, the year of your first publish
 email: domofactor@github.com
 baseurl: "/wedding" # the subpath of your site, e.g. /blog
 url: "https://tanda.github.io" # the base hostname & protocol for your site

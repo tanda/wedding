@@ -1,0 +1,21 @@
+<!-- Header -->
+<header id="header"{% if page.layout == 'landing' %} class="alt"{% endif %}>
+  <h1><a href="{{ site.baseurl }}/{{ page.lang }}/index.html">{{ site.title[page.lang] }}</a></h1>
+  <nav id="nav">
+    <ul>
+      <a href="{{ site.url }}/{{ site.baseurl }}/en/" <span>English🇬🇧</span></a>
+      <li class="special">
+        <a href="#menu" class="menuToggle"><span>メニュ</span></a>
+        <div id="menu">
+          <ul>
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="#venue" class="icon fa-building"> 場所</a></li>
+            <li><a href="#about" class="icon fa-question"> カップルについて</a></li>
+            <li><a href="#rsvp" class="icon fa-paper-plane-o"> RSVP</a></li>
+            <li><a href="#hotels" class="icon fa-bed"> ホテル</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </nav>
+</header>
