@@ -24,7 +24,7 @@ description:
     Ceremony: 16:00時 |
     Reception: 17:00時
 owner: Ayako + Terrell Broomer # or company name
-first_published: 2019 # if migrating another site, the year of your first publish
+first_published: 2018 # if migrating another site, the year of your first publish
 email: domofactor@github.com
 baseurl: "/wedding" # the subpath of your site, e.g. /blog
 url: "https://tanda.github.io" # the base hostname & protocol for your site
