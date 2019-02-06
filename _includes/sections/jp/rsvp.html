@@ -4,17 +4,17 @@
     <meta name="Referrer" content="origin">
     <h2>RSVP</h2>
     <form method="POST" action="https://formspree.io/xddveeex">
-      First Name <input type="text" name="first_name">
-      Last Name <input type="text" name="last_name">
-      Email <input type="text" name="email">
+      姓 <input type="text" name="first_name">
+      名 <input type="text" name="last_name">
+      メールアドレス <input type="text" name="email">
       Party <select name="party">
              <option value="none" selected>Please Select A Party</option>
-             <option value="Ayako">Ayako</option>
-             <option value="Terrell">Terrell</option>
+             <option value="Ayako">新婦側</option>
+             <option value="Terrell">新郎側</option>
              </select>
-      Food Restrictions/Allergies <input type="text" name="food_restrictions" value="none">
+      食べ物のアレルギー <input type="text" name="food_restrictions" value="なし">
       <br>
-      <input type="hidden" name="_next" value="{{ site.baseurl }}/thanks.html"/>
+      <input type="hidden" name="_next" value="{{ site.baseurl }}/{{ page.lang }}/thanks.html"/>
   	  <button type="submit" class="button special">RSVP</button>
   	</form>
   </header>

@@ -11,7 +11,7 @@ lang: jp
 			<li><a href="#rsvp" class="button special">RSVP</a></li>
 		</ul>
 	</div>
-	<a href="#venue" class="more scrolly">場所について</a>
+	<a href="#venue" class="more scrolly">会場について</a>
 </section>
 
 <section id="venue" class="wrapper style3 special">
