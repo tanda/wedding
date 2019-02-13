@@ -1,6 +1,6 @@
 ---
 layout: default
-lang: ja
+lang: jp
 ---
 
 <section id="thanks" class="wrapper alt style2">
