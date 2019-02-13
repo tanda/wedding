@@ -1,6 +1,6 @@
 ---
 layout: landing
-lang: ja
+lang: jp
 ---
 <html>
 <section id="banner">
@@ -15,19 +15,19 @@ lang: ja
 </section>
 
 <section id="venue" class="wrapper style3 special">
-	{% include sections/{{ page.lang }}/venue.html %}
+	{% include sections/jp/venue.html %}
 </section>
 
 <section id="about" class="wrapper alt style2">
-	{% include sections/{{ page.lang }}/about.html %}
+	{% include sections/jp/about.html %}
 </section>
 
 <section id="rsvp" class="wrapper style1 special">
-	{% include sections/{{ page.lang }}/rsvp.html %}
+	{% include sections/jp/rsvp.html %}
 </section>
 
 <section id="hotels" class="wrapper style3 special">
-	{% include sections/{{ page.lang }}/hotels.html%}
+	{% include sections/jp/hotels.html%}
 </section>
 
 </html>

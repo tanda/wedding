@@ -15,19 +15,19 @@ lang: en
 </section>
 
 <section id="venue" class="wrapper style3 special">
-	{% include sections/{{ page.lang }}/venue.html %}
+	{% include sections/en/venue.html %}
 </section>
 
 <section id="about" class="wrapper alt style2">
-	{% include sections/{{ page.lang }}/about.html %}
+	{% include sections/en/about.html %}
 </section>
 
 <section id="rsvp" class="wrapper style1 special">
-	{% include sections/{{ page.lang }}/rsvp.html %}
+	{% include sections/en/rsvp.html %}
 </section>
 
 <section id="hotels" class="wrapper style3 special">
-	{% include sections/{{ page.lang }}/hotels.html %}
+	{% include sections/en/hotels.html %}
 </section>
 
 </html>
