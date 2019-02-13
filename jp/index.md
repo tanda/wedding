@@ -1,6 +1,6 @@
 ---
 layout: landing
-lang: ja
+lang: jp
 ---
 <html>
 <section id="banner">
