@@ -4,5 +4,5 @@ lang: jp
 ---
 
 <section id="thanks" class="wrapper alt style2">
-	{% include sections/jp/thanks.html %}
+	{% include sections/{{ page.lang }}/thanks.html %}
 </section>
